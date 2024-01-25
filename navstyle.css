@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+    background-position: center;
+    background-size: cover;
+    background-image: url("resources/istockphoto-1464533610-2048x2048.jpg");
+    background-blend-mode:screen;
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 5vh;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white ;
+    text-transform: uppercase;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin:auto ;
+    color:black ;
+    position: relative;
+}
+.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: monospace;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}.content h1{
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 20px;
+    margin: 9px;
+    letter-spacing: 2px;
+ }
+ .content .cn{
+     width: 200px;
+     height: 50px;
+     color: black;
+     border: none;
+     border-radius: 10px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size: 20px;
+ }
+ .content .cn a{
+     text-decoration: none;
+     color: black;
+ }
+ .cn:hover{
+     background-color: blue;
+ }
+ .content span{
+     color: navy;
+     font-size: 40px;
+ }
+ .form{
+     width: 500px;
+     height: auto;
+     background-color: #777777;
+
+     position:absolute;
+     top: 5px;
+     left: 800px;
+     border-radius: 20px;
+     padding: 20px;
+
+ }
+ .form input{
+     background-color: #494949;
+     border-radius: 10px;
+     padding: 10px 10px;
+     width: 80%;
+     height: 20px;
+ }
+ .form .link{
+     font-family:monospace;
+     color: #031e62;
+     background-color: #4b4a4a;
+     background-blend-mode: color-burn;
+     border-radius: 10px;
+ }
+ .form .liw{
+     font-family:monospace;
+     color: #031e62;
+     background-color: #4b4a4a;
+     background-blend-mode: color-burn;
+     border-radius: 10px;
+ }
+ .form a{background-color: #a1a0a0;
+     border-radius: 5px;
+     color: #f9fafd;
+ }
+ .a:hover{
+     background-color: black;
+ }
+ .form h2{
+     color: #fdfbfb;
+     font-family: cursive;
+     font-size: 50px;
+     width: 50%;
+     text-decoration: underline;
+     text-align: center;
+ }
+ .btn a{
+
+     font-weight: lighter;
+     color: #fdfbfb;
+ }
+ .btn:hover{
+     background-color: #1c1b1b;
+     width: 100px;
+ }
+ .form .link{
+     font-family: monospace;
+     padding: 10px 10px;
+     text-align: center;
+ }
+ .form .liw{
+     font-family: monospace;
+     padding: 10px 10px;
+     text-align: center;
+ }
+ .form .ref a{
+     color: white;
+     background-color: #031e62;
+     border-radius: 10px;
+     text-decoration: none;
+ }
